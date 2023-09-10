@@ -15,8 +15,10 @@ export default function ErrorPages() {
                         </a>
                         
                     </div>
-                    <div className="w-1/2 lg:w-2/3 mx-auto  self-center lg:px-10 px-6 pb-5 pt-10">
-                        <Image src={"/assets/error.webp"} width={400} height={400} alt="Error" className="rounded-lg "/>
+                    <div className="w-1/2 text-center mx-auto px-6 pb-5 pt-10">
+                        <Image src={"/assets/error.webp"} width={400} height={400} alt="Error" className="rounded-lg " style={{
+                            justifyContent: "center"
+                        }}/>
                     </div>
                 </div>
 

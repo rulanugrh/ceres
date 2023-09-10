@@ -16,8 +16,8 @@ export default function HomeSection() {
                         </a>
                         
                     </div>
-                    <div className="w-2/3 px-6 mx-auto">
-                        <Image src={"/assets/bumi.webp"} width={400} height={400} alt="Maskot ITC" className=""/>
+                    <div className="w-1/2 mx-auto text-center px-6 pb-5 pt-10">
+                        <Image src={"/assets/bumi.webp"} width={400} height={400} alt="Maskot ITC" />
                     </div>
                     <div className="w-full text-center px-6">
                         <h1 className="font-rubikFont lg:text-4xl font-bold text-shadowBox text-lg">Welcome to website IT Club 22</h1>

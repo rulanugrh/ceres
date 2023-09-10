@@ -7,7 +7,7 @@ export default function NotFound() {
             <div className="pt-16">
                 <Navbar />
             </div>
-            <div className="pt-10 pb-10">
+            <div className="pt-10 pb-80">
                 <ErrorPages />
             </div>
         </main>

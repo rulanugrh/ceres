@@ -18,7 +18,9 @@ export default function CardProfile(props: Props) {
             <Card radius="sm" className="max-w-[500px] pt-5 pb-5 px-4 backdrop-filter backdrop-blur-lg bg-opacity-25 bg-bgColor ">
                 <CardHeader className="justify-between mb-2">
                     <div className="flex flex-wrap ">
-                        <Avatar isBordered size="lg" radius="full" color={`${props.Color}`} src={`${props.Image}`} />
+                        <div className="self-center">
+                            <Avatar isBordered size="md" radius="full" color={`${props.Color}`} src={`${props.Image}`} />
+                        </div>
                         <div className="px-5">
                             <h3 className="font-firaCode text-sm lg:text-xl font-bold leading-none text-shadowBox">{props.Name}</h3>
                             <h4 className="font-firaCode text-sm lg:text-lg tracking-tight text-white">{props.TTL}</h4>
