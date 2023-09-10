@@ -26,7 +26,7 @@ export default function CardProfile(props: Props) {
                             <h4 className="font-firaCode text-sm lg:text-lg tracking-tight text-white">{props.TTL}</h4>
                         </div>
                     </div>
-                    <Button className="text-foreground font-firaCode" color={`${props.Color}`} radius="full" size="md"> 
+                    <Button className="text-foreground font-firaCode" color={`${props.Color}`} radius="full" size="sm"> 
                         <a href={`${props.LinkProfile}`}  className="text-white font-firaCode">Ikuti</a>
                     </Button>
                     
