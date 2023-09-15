@@ -13,7 +13,7 @@ export default function Navbar() {
                             <span className="ml-2">IT Club</span>
                         </Link>
                     </div>
-                    <div className="lg:px-12 px-4 lg:w-1/4 w-1/2 space-x-2 lg:space-x-8 lg:self-center">
+                    <div className="lg:px-32 px-4 lg:w-1/4 w-1/2 space-x-2 lg:space-x-8 lg:self-center">
                         <Link href={"/profile"} className="text-white font-bold font-firaCode lg:text-xl text-sm">
                             Hello
                         </Link>

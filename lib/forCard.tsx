@@ -23,7 +23,7 @@ export default function CardProfile(props: Props) {
                         
                         <div className="px-4 flex flex-col items-start justify-center">
                             <h3 className="font-firaCode text-sm lg:text-xl font-bold leading-none text-shadowBox">{props.Name}</h3>
-                            <h4 className="font-firaCode text-sm lg:text-lg tracking-tight text-white">{props.TTL}</h4>
+                            <a href={`${props.LinkIG}`} className="font-firaCode text-sm lg:text-lg tracking-tight text-white">{props.Uname}</a>
                         </div>
                     </div>
                     <Button className="text-foreground font-firaCode" color={`${props.Color}`} radius="full" size="md"> 
@@ -36,9 +36,6 @@ export default function CardProfile(props: Props) {
                     <span className="pt-2 pb-2">{props.Jobs}</span>
                 </CardBody>
                 <CardFooter> 
-                    <div className="w-1/2">
-                        <a href={`${props.LinkIG}`} className="hover:text-blue-500  text-white lg:text-lg text-sm font-firaCode font-thin">{props.Uname}</a>
-                    </div> 
                 </CardFooter>
             </Card>
         </div>
