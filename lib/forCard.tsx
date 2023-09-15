@@ -26,7 +26,7 @@ export default function CardProfile(props: Props) {
                             <a href={`${props.LinkIG}`} className="font-firaCode text-sm lg:text-lg tracking-tight text-white">{props.Uname}</a>
                         </div>
                     </div>
-                    <Button className="text-foreground font-firaCode" color={`${props.Color}`} radius="full" size="md"> 
+                    <Button className="text-foreground font-firaCode" color={`${props.Color}`} radius="full" size="sm"> 
                         <a href={`${props.LinkProfile}`}  className="text-white font-firaCode">Ikuti</a>
                     </Button>
                     
