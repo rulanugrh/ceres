@@ -70,11 +70,8 @@ export default function HomeSection() {
                         <h1 className="font-firaCode font-semibold lg:text-xl text-md"><span className="text-blue-300 inline">home </span><span className="inline text-blue-800">git:(</span><span className="inline text-red-600">master</span><span className="text-blue-800">)</span> $ <span className="inline-block text-white">node contact.js</span></h1>
                     </a>    
                 </div>
-                <div className="flex flex-wrap ">
-                    <div className="w-full">
-                        <Contact />
-                    </div>
-                    
+                <div>
+                    <Contact />
                 </div>
             </div>
         </div>
